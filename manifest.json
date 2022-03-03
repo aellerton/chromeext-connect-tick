@@ -1,6 +1,6 @@
 {
   "name": "Connect Ticker",
-  "description": "Save you from re-ticking the T&C every time you load Connect",
+  "description": "Save yous from re-ticking the Connect T&C every time - once is enough!",
   "version": "1.0",
   "manifest_version": 3,
   "content_scripts": [
@@ -12,5 +12,10 @@
         "content-script.js"
       ]
     }
-  ]
+  ],
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
 }
